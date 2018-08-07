@@ -12,7 +12,7 @@ require('./controllers/contactDetails')(app);
 require('./controllers/Subjects')(app);
 require('./controllers/StudentAssociation')(app);
 
-console.log("Bindu");
+console.log("BinduLatha");
 app.get('/', (req, res) => {
     return res.send("Bharath Thatikonda")
 })
